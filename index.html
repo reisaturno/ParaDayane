@@ -1,19 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Presente para Dayane</title>
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="firebase.js" defer></script>
-  </head>
-  <body>
-    <div class="login-container">
-      <h2>Bem-vinda, Dayane</h2>
-      <input type="email" id="email" placeholder="E-mail" />
-      <input type="password" id="password" placeholder="Senha" />
-      <button id="loginBtn">Entrar</button>
-      <p id="errorMsg"></p>
-    </div>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+  <title>Para Dayane</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f5f0; /* Fundo clarinho */
+      color: #2e3d2f; /* Texto em tom escuro de verde musgo */
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #556b2f; /* Verde musgo */
+    }
+
+    .fotos {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .fotos img {
+      width: 45%;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #aaa;
+    }
+
+    .mensagem {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 18px;
+      color: #3a4b39;
+    }
+  </style>
+</head>
+<body>
+  <h1>Para a minha Dayane</h1>
+
+  <div class="fotos">
+    <img src="foto1.jpg" alt="Foto 1">
+    <img src="foto2.jpg" alt="Foto 2">
+  </div>
+  <div class="mensagem">Você é a melhor parte dos meus dias.</div>
+
+  <div class="fotos">
+    <img src="foto3.jpg" alt="Foto 3">
+    <img src="foto4.jpg" alt="Foto 4">
+  </div>
+  <div class="mensagem">Cada momento ao seu lado é inesquecível.</div>
+
+  <div class="fotos">
+    <img src="foto5.jpg" alt="Foto 5">
+    <img src="foto6.jpg" alt="Foto 6">
+  </div>
+  <div class="mensagem">Te ver sorrindo é meu lugar favorito.</div>
+
+  <div class="fotos">
+    <img src="foto7.jpg" alt="Foto 7">
+    <img src="foto8.jpg" alt="Foto 8">
+  </div>
+  <div class="mensagem">Obrigado por ser quem você é, meu amor.</div>
+
+  <div class="fotos">
+    <img src="foto9.jpg" alt="Foto 9">
+    <img src="foto10.jpg" alt="Foto 10">
+  </div>
+  <div class="mensagem">Te amo mais do que palavras conseguem dizer.</div>
+
+  <audio autoplay loop>
+    <source src="musica.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio em HTML5.
+  </audio>
+</body>
+    </html>
